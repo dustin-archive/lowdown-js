@@ -90,7 +90,9 @@ Status | Name | Info
 #### ES1
 Status | Name | Info
 :----: | ---- | ----
-❎ | ~~`String.prototype.fromCharCode()`~~ | + Returns a string from a sequence of Unicode values. + Cannot return all Unicode characters. Use `String.fromCodePoint()` instead.
+❎ | ~~`String.prototype.fromCharCode()`~~ |
+  + Returns a string from a sequence of Unicode values.
+  + Cannot return all Unicode characters. Use `String.fromCodePoint()` instead.
 ✅ | `String.prototype.charAt()`
 ✅ | `String.prototype.charCodeAt()`
 ✅ | `String.prototype.indexOf()`
