@@ -5,7 +5,6 @@ Unofficial opinionated TL;DR of JavaScript.
 # Index
 1. [Intro](#intro)
 1. [Strings](#strings)
-<!-- TODO: Numbers, -->
 1. [Numbers](#numbers)
 1. [Arrays](#arrays)
 1. [Objects](#objects)
@@ -68,9 +67,6 @@ Single quotes, meaning `'your string looks like this'`.
   + Moves to the next iteration.
 
 # Functions
-## Arrays
-+ `forEach`
-  + Iterates through an array with `item, index` in the callback function.
 
 # "Falsey" values
 + Don't use `undefined` in your code.
