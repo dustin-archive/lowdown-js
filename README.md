@@ -74,13 +74,64 @@ Single quotes, meaning `'your string looks like this'`.
 # Properties
 ## String
 + `.length`
-  + Returns the length of a string.
+  + Returns the length of a string.  
 
 # Methods
 ## String
-+ `.fromCharCode()`
-+ `.fromCodePoint()`
-+ `.raw()`
+### ES
++ `String.prototype.fromCharCode()`
++ `String.prototype.anchor()`
++ `String.prototype.charAt()`
++ `String.prototype.charCodeAt()`
++ `String.prototype.concat()`
++ `String.prototype.indexOf()`
++ `String.prototype.lastIndexOf()`
++ `String.prototype.link()`
++ `String.prototype.localeCompare()`
++ `String.prototype.match()`
++ `String.prototype.replace()`
++ `String.prototype.search()`
++ `String.prototype.slice()`
++ `String.prototype.split()`
++ `String.prototype.substr()`
++ `String.prototype.substring()`
++ `String.prototype.toLocaleLowerCase()`
++ `String.prototype.toLocaleUpperCase()`
++ `String.prototype.toLowerCase()`
++ `String.prototype.toString()`
++ `String.prototype.toUpperCase()`
++ `String.prototype.trim()`
++ `String.prototype.valueOf()`
++ `String.prototype.raw()`
+
+### ES6
++ `String.prototype.fromCodePoint()`
++ `String.prototype.codePointAt()`
++ `String.prototype.endsWidth()`
++ `String.prototype.includes()`
++ `String.prototype.normalize()`
++ `String.prototype.repeat()`
++ `String.prototype.startsWidth()`
++ `String.prototype.[@@iterator]()`
+
+### Deprecated
++ `String.prototype.big()`
++ `String.prototype.blink()`
++ `String.prototype.bold()`
++ `String.prototype.fixed()`
++ `String.prototype.fontcolor()`
++ `String.prototype.fontsize()`
++ `String.prototype.italics()`
++ `String.prototype.small()`
++ `String.prototype.strike()`
++ `String.prototype.stub()`
++ `String.prototype.sup()`
+
+### Non-standard
++ `String.prototype.quote()`
++ `String.prototype.toSource()`
++ `String.prototype.trimLeft()`
++ `String.prototype.trimRight()`
 
 # "Falsey" values
 + Don't use `undefined` in your code.
