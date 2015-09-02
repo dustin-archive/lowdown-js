@@ -31,12 +31,12 @@ It doesn't matter... as long as you use single quotes.
   + `do...while`: Execute block once before loop.
 
 ### Operational
-+ `label`
-+ `break`
-+ `continue`
++ `label`: Name the loop so you can hop to it with the `condition` statement.
++ `break`: Stop a loop.
++ `continue`: Move to the next iteration.
 
 ## Arrays
-+ `forEach`
++ `forEach`: Iterates through an array with `item, index` in the callback function.
 
 # Functions
 
