@@ -83,25 +83,22 @@ Emoji | Description
 #### ES1
 Status | Name | Info
 :----: | ---- | ----
-✅ | `String.length` | + Returns the length of a string.  
+✅ | `String.length` | + Returns the length of a string.
 ✅ | `String.prototype` | + Represents the string prototype object.
 
 ### Methods
 #### ES1
-+ ❎ ~~`String.prototype.fromCharCode()`~~
-  + Returns a string from a sequence of Unicode values.
-  + Cannot return all Unicode characters. Use `String.fromCodePoint()` instead.
-+ ✅ `String.prototype.charAt()`
-+ ✅ `String.prototype.charCodeAt()`
-+ ✅ `String.prototype.indexOf()`
-+ ✅ `String.prototype.lastIndexOf()`
-+ ❎ ~~`String.prototype.substring()`~~
-  + Returns a section of a string from a start and an optional end index.
-  + Almost identical to `String.prototype.slice()`, use it instead.
-+ ✅ `String.prototype.toLowerCase()`
-+ ✅ `String.prototype.toUpperCase()`
-+ ✅ `String.prototype.valueOf()`
-  + Returns the primitive value of a String object.
+Status | Name | Info
+:----: | ---- | ----
+❎ | ~~`String.prototype.fromCharCode()`~~ | + Returns a string from a sequence of Unicode values. + Cannot return all Unicode characters. Use `String.fromCodePoint()` instead.
+✅ | `String.prototype.charAt()`
+✅ | `String.prototype.charCodeAt()`
+✅ | `String.prototype.indexOf()`
+✅ | `String.prototype.lastIndexOf()`
+❎ | ~~`String.prototype.substring()`~~ | + Returns a section of a string from a start and an optional end index. + Almost identical to `String.prototype.slice()`, use it instead.
+✅ | `String.prototype.toLowerCase()`
+✅ | `String.prototype.toUpperCase()`
+✅ | `String.prototype.valueOf()` | + Returns the primitive value of a String object.
 
 #### ES3
 + ✅ `String.prototype.concat()`
