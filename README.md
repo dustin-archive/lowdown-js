@@ -85,32 +85,31 @@ Single quotes, meaning `'your string looks like this'`.
 # Methods
 ## String
 ### ES1
-+ `String.prototype.fromCharCode()`
-
-### ES1
-+ `String.prototype.charAt()`
-+ `String.prototype.charCodeAt()`
-+ `String.prototype.indexOf()`
-+ `String.prototype.lastIndexOf()`
-+ `String.prototype.substr()`
-+ <s>`String.prototype.substring()`</s>
-+ `String.prototype.toLocaleLowerCase()`
-+ `String.prototype.toLocaleUpperCase()`
-+ `String.prototype.toLowerCase()`
-+ `String.prototype.toString()`
-+ `String.prototype.toUpperCase()`
-+ `String.prototype.trim()`
-+ `String.prototype.valueOf()`
-+ `String.prototype.raw()`
++ ✅`String.prototype.fromCharCode()`
++ ✅`String.prototype.charAt()`
++ ✅`String.prototype.charCodeAt()`
++ ✅`String.prototype.indexOf()`
++ ✅`String.prototype.lastIndexOf()`
++ ✅<s>`String.prototype.substring()`</s>
++ ✅`String.prototype.toLowerCase()`
++ ✅`String.prototype.toUpperCase()`
++ ✅`String.prototype.valueOf()`
 
 ### ES3
-+ `String.prototype.concat()`
-+ `String.prototype.localeCompare()`
-+ `String.prototype.match()`
-+ `String.prototype.replace()`
-+ `String.prototype.search()`
-+ `String.prototype.slice()`
-+ `String.prototype.split()`
++ ✅`String.prototype.concat()`
++ ✅`String.prototype.localeCompare()`
++ ✅`String.prototype.match()`
++ ✅`String.prototype.replace()`
++ ✅`String.prototype.search()`
++ ✅`String.prototype.slice()`
++ ✅`String.prototype.split()`
++ ✅`String.prototype.substr()`
++ ✅`String.prototype.toLocaleLowerCase()`
++ ✅`String.prototype.toLocaleUpperCase()`
++ ✅`String.prototype.toString()`
+
+### ES5.1
++ ✅`String.prototype.trim()`
 
 ### ES6
 + 💡`String.prototype.fromCodePoint()`
@@ -123,7 +122,10 @@ Single quotes, meaning `'your string looks like this'`.
 + 💡`String.prototype.repeat()`
 + 💡`String.prototype.startsWith()`
 + ❌`String.prototype.strike()`
++ ❌`String.prototype.stub()`
++ ❌`String.prototype.sup()`
 + 💡`String.prototype.[@@iterator]()`
++ 💡`String.prototype.raw()`
 
 ### Deprecated
 + ❌`String.prototype.big()`
@@ -134,8 +136,6 @@ Single quotes, meaning `'your string looks like this'`.
 + ❌`String.prototype.fontsize()`
 + ❌`String.prototype.italics()`
 + ❌`String.prototype.small()`
-+ ❌`String.prototype.stub()`
-+ ❌`String.prototype.sup()`
 
 ### Non-standard
 + ❓`String.prototype.quote()`
