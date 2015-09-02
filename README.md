@@ -24,7 +24,7 @@ It doesn't matter... as long as you use single quotes.
 ## Statements
 + `for` Use it when you know the start and end of a loop.
 + `do...while`
-+ `while` Use it when you don't know the start and end of a loop.
++ `while` Use it when you know the start but not the end of a loop.
 + `label`
 + `break`
 + `continue`
