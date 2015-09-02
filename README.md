@@ -111,7 +111,7 @@ Single quotes, meaning `'your string looks like this'`.
 + `String.prototype.includes()`
 + `String.prototype.normalize()`
 + `String.prototype.repeat()`
-+ `String.prototype.startsWidth()`
++ `String.prototype.startsWith()`
 + `String.prototype.[@@iterator]()`
 
 ### Deprecated
