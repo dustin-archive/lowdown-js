@@ -14,6 +14,8 @@ Unofficial opinionated TL;DR of JavaScript.
 1. [Loops](#Loops)
 1. [Scoping](#scoping)
 1. [Variables](#variables)
+1. [Methods](#methods)
+1. [Properties](#properties)
 
 # Intro
 Intro to JavaScript.
@@ -68,6 +70,11 @@ Single quotes, meaning `'your string looks like this'`.
   + Moves to the next iteration.
 
 # Functions
+
+# Properties
+## String
++ `.length`
+  + Returns the length of a string.
 
 # "Falsey" values
 + Don't use `undefined` in your code.
