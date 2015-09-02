@@ -22,7 +22,7 @@ Intro to JavaScript.
 ## Single or double quotes?
 Single quotes, meaning `'your string looks like this'`.
 
-## `slice`, `substr`, and `substring`
+## `slice`, `substr`, and <s>`substring`</s>
 + `slice`
   + Use it if you know the start and end indexes.
   + Works on strings and arrays.
