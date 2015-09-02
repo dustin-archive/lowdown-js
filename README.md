@@ -94,7 +94,7 @@ Single quotes, meaning `'your string looks like this'`.
 + `String.prototype.slice()`
 + `String.prototype.split()`
 + `String.prototype.substr()`
-+ `String.prototype.substring()`
++ <s>`String.prototype.substring()`</s>
 + `String.prototype.toLocaleLowerCase()`
 + `String.prototype.toLocaleUpperCase()`
 + `String.prototype.toLowerCase()`
