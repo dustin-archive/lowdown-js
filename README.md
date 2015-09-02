@@ -24,7 +24,7 @@ It doesn't matter... as long as you use single quotes.
 ## Statements
 ### Conditional
 #### `for`
-+ `for`: <span style='color:red;'>Use</span> it when you know the start and end of a loop.
++ `for`: Use it when you know the start and end of a loop.
 + `for...in`: Enumerate over an object, discouraged for arrays, see `for...of` instead.
 + `for...of`: Enumerate arrays and objects.
 + <s>`for each...in`</s>: Don't use it because it's obsolete. Use `for...of` instead.
