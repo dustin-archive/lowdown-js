@@ -70,26 +70,26 @@ Unofficial opinionated TL;DR of JavaScript.
 1. [RegExp](#RegExp)
 
 ## Legend
-Emoji | Description
-:---: | -----------
-✅ | Safe to use
-❎ | Safe to use but not recommended
-🚧 | Some support
-❌ | Deprecated
-❓ | Non-standard
+<sub> Emoji </sub> | <sub> Description </sub>
+:----------------: | ------------------------
+<sub> ✅ </sub> | <sub> Safe to use </sub>
+<sub> ❎ </sub> | <sub> Safe to use but not recommended </sub>
+<sub> 🚧 </sub> | <sub> Some support </sub>
+<sub> ❌ </sub> | <sub> Deprecated </sub>
+<sub> ❓ </sub> | <sub> Non-standard </sub>
 
 ## String
 ### Properties
 #### ES1
-       | Name | Info
-:----: | ---- | ----
-✅ | `String.length` | 🔹 Returns the length of a string.
-✅ | `String.prototype` | 🔹 Represents the string prototype object.
+       | <sub> Name </sub> | <sub> Info </sub>
+:----: | ----------------- | -----------------
+<sub> ✅ </sub> | <sub> `String.length` </sub> | <sub> 🔹 Returns the length of a string. </sub>
+<sub> ✅ </sub> | <sub> `String.prototype` </sub> | <sub> 🔹 Represents the string prototype object. </sub>
 
 ### Methods
 #### ES1
        | <sub> Name </sub> | <sub> Info </sub>
-:----: | ---- | ----
+:----: | ----------------- | -----------------
 <sub> ❎ </sub> | <sub> ~~`String.prototype.fromCharCode()`~~ </sub> | <sub> 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. <br> 🔹 Use `String.fromCodePoint()` instead. </sub>
 <sub> ✅ </sub> | <sub> `String.prototype.charAt()` </sub>
 <sub> ✅ </sub> | <sub> `String.prototype.charCodeAt()` </sub>
@@ -101,58 +101,58 @@ Emoji | Description
 <sub> ✅ </sub> | <sub> `String.prototype.valueOf()` </sub> | <sub> 🔹 Returns the primitive value of a String object. </sub>
 
 #### ES3
-       | Name | Info
-:----: | ---- | ----
-✅ | `String.prototype.concat()`
-✅ | `String.prototype.localeCompare()`
-✅ | `String.prototype.match()`
-✅ | `String.prototype.replace()`
-✅ | `String.prototype.search()`
-✅ | `String.prototype.slice()`
-✅ | `String.prototype.split()` | 🔹 Returns a section of a string from a start and an optional end index.
-✅ | `String.prototype.substr()`
-✅ | `String.prototype.toLocaleLowerCase()`
-✅ | `String.prototype.toLocaleUpperCase()`
-✅ | `String.prototype.toString()`
+       | <sub> Name </sub> | <sub> Info </sub>
+:----: | ----------------- | -----------------
+<sub> ✅ </sub> | <sub> `String.prototype.concat()` </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.localeCompare()` </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.match()` </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.replace()` </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.search()` </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.slice()` </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.split()` </sub> | <sub> 🔹 Returns a section of a string from a start and an optional end index. </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.substr()` </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.toLocaleLowerCase()` </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.toLocaleUpperCase()` </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.toString()` </sub>
 
 #### ES5.1
-       | Name | Info
-:----: | ---- | ----
-✅ | `String.prototype.trim()` | 🔹 Removes whitespace from both ends of a string.
+       | <sub> Name </sub> | <sub> Info </sub>
+:----: | ----------------- | -----------------
+<sub> ✅ </sub> | <sub> `String.prototype.trim()` </sub> | <sub> 🔹 Removes whitespace from both ends of a string. </sub>
 
 #### ES6
-       | Name | Info
-:----: | ---- | ----
-🚧 | `String.prototype.fromCodePoint()` | 🔹 Returns a string from a sequence of code points.
-✅ | `String.prototype.anchor()` | <sub><sup>HTML Wrapper</sup></sub>
-❌ | `String.prototype.big()` | <sub><sup>HTML Wrapper</sup></sub>
-❌ | `String.prototype.blink()` | <sub><sup>HTML Wrapper</sup></sub>
-❌ | `String.prototype.bold()` | <sub><sup>HTML Wrapper</sup></sub>
-🚧 | `String.prototype.codePointAt()`
-🚧 | `String.prototype.endsWidth()`
-❌ | `String.prototype.fixed()` | <sub><sup>HTML Wrapper</sup></sub>
-❌ | `String.prototype.fontcolor()` | <sub><sup>HTML Wrapper</sup></sub>
-❌ | `String.prototype.fontsize()` | <sub><sup>HTML Wrapper</sup></sub>
-🚧 | `String.prototype.includes()`
-❌ | `String.prototype.italics()` | <sub><sup>HTML Wrapper</sup></sub>
-✅ | `String.prototype.link()` | <sub><sup>HTML Wrapper</sup></sub>
-🚧 | `String.prototype.normalize()`
-🚧 | `String.prototype.repeat()`
-❌ | `String.prototype.small()` | <sub><sup>HTML Wrapper</sup></sub>
-🚧 | `String.prototype.startsWith()`
-❌ | `String.prototype.strike()` | <sub><sup>HTML Wrapper</sup></sub>
-❌ | `String.prototype.stub()` | <sub><sup>HTML Wrapper</sup></sub>
-❌ | `String.prototype.sup()` | <sub><sup>HTML Wrapper</sup></sub>
-🚧 | `String.prototype.[@@iterator]()`
-🚧 | `String.prototype.raw()`
+       | <sub> Name </sub> | <sub> Info </sub>
+:----: | ----------------- | -----------------
+<sub> 🚧 </sub> | <sub> `String.prototype.fromCodePoint()` </sub> | <sub> 🔹 Returns a string from a sequence of code points. </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.anchor()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> ❌ </sub> | <sub> `String.prototype.big()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> ❌ </sub> | <sub> `String.prototype.blink()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> ❌ </sub> | <sub> `String.prototype.bold()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> 🚧 </sub> | <sub> `String.prototype.codePointAt()` </sub>
+<sub> 🚧 </sub> | <sub> `String.prototype.endsWidth()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.fixed()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> ❌ </sub> | <sub> `String.prototype.fontcolor()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> ❌ </sub> | <sub> `String.prototype.fontsize()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> 🚧 </sub> | <sub> `String.prototype.includes()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.italics()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> ✅ </sub> | <sub> `String.prototype.link()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> 🚧 </sub> | <sub> `String.prototype.normalize()` </sub>
+<sub> 🚧 </sub> | <sub> `String.prototype.repeat()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.small()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> 🚧 </sub> | <sub> `String.prototype.startsWith()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.strike()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> ❌ </sub> | <sub> `String.prototype.stub()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> ❌ </sub> | <sub> `String.prototype.sup()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
+<sub> 🚧 </sub> | <sub> `String.prototype.[@@iterator]()` </sub>
+<sub> 🚧 </sub> | <sub> `String.prototype.raw()` </sub>
 
 #### Non-standard
-       | Name | Info
-:----: | ---- | ----
-❓ | `String.prototype.quote()`
-❓ | `String.prototype.toSource()`
-❓ | `String.prototype.trimLeft()`
-❓ | `String.prototype.trimRight()`
+       | <sub> Name </sub> | <sub> Info </sub>
+:----: | ----------------- | -----------------
+<sub> ❓ </sub> | <sub> `String.prototype.quote()` </sub>
+<sub> ❓ </sub> | <sub> `String.prototype.toSource()` </sub>
+<sub> ❓ </sub> | <sub> `String.prototype.trimLeft()` </sub>
+<sub> ❓ </sub> | <sub> `String.prototype.trimRight()` </sub>
 
 ## RegExp
 ### Properties
