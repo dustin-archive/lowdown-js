@@ -22,6 +22,7 @@ Intro to JavaScript.
 
 # Emoji Legend
 + ✅ Safe to use
++ ❎ Safe to use but not recommended
 + 💡 Some support
 + ❌ Deprecated
 + ❓ Non-standard
@@ -85,63 +86,61 @@ Single quotes, meaning `'your string looks like this'`.
 # Methods
 ## String
 ### ES1
-+ ✅`String.prototype.fromCharCode()`
-+ ✅`String.prototype.charAt()`
-+ ✅`String.prototype.charCodeAt()`
-+ ✅`String.prototype.indexOf()`
-+ ✅`String.prototype.lastIndexOf()`
-+ ✅<s>`String.prototype.substring()`</s>
-+ ✅`String.prototype.toLowerCase()`
-+ ✅`String.prototype.toUpperCase()`
-+ ✅`String.prototype.valueOf()`
++ ✅ `String.prototype.fromCharCode()`
++ ✅ `String.prototype.charAt()`
++ ✅ `String.prototype.charCodeAt()`
++ ✅ `String.prototype.indexOf()`
++ ✅ `String.prototype.lastIndexOf()`
++ ❎ <s>`String.prototype.substring()`</s>
++ ✅ `String.prototype.toLowerCase()`
++ ✅ `String.prototype.toUpperCase()`
++ ✅ `String.prototype.valueOf()`
 
 ### ES3
-+ ✅`String.prototype.concat()`
-+ ✅`String.prototype.localeCompare()`
-+ ✅`String.prototype.match()`
-+ ✅`String.prototype.replace()`
-+ ✅`String.prototype.search()`
-+ ✅`String.prototype.slice()`
-+ ✅`String.prototype.split()`
-+ ✅`String.prototype.substr()`
-+ ✅`String.prototype.toLocaleLowerCase()`
-+ ✅`String.prototype.toLocaleUpperCase()`
-+ ✅`String.prototype.toString()`
++ ✅ `String.prototype.concat()`
++ ✅ `String.prototype.localeCompare()`
++ ✅ `String.prototype.match()`
++ ✅ `String.prototype.replace()`
++ ✅ `String.prototype.search()`
++ ✅ `String.prototype.slice()`
++ ✅ `String.prototype.split()`
++ ✅ `String.prototype.substr()`
++ ✅ `String.prototype.toLocaleLowerCase()`
++ ✅ `String.prototype.toLocaleUpperCase()`
++ ✅ `String.prototype.toString()`
 
 ### ES5.1
-+ ✅`String.prototype.trim()`
++ ✅ `String.prototype.trim()`
 
 ### ES6
-+ 💡`String.prototype.fromCodePoint()`
-+ ✅`String.prototype.anchor()`
-+ 💡`String.prototype.codePointAt()`
-+ 💡`String.prototype.endsWidth()`
-+ 💡`String.prototype.includes()`
-+ ✅`String.prototype.link()`
-+ 💡`String.prototype.normalize()`
-+ 💡`String.prototype.repeat()`
-+ 💡`String.prototype.startsWith()`
-+ ❌`String.prototype.strike()`
-+ ❌`String.prototype.stub()`
-+ ❌`String.prototype.sup()`
-+ 💡`String.prototype.[@@iterator]()`
-+ 💡`String.prototype.raw()`
-
-### Deprecated
-+ ❌`String.prototype.big()`
-+ ❌`String.prototype.blink()`
-+ ❌`String.prototype.bold()`
-+ ❌`String.prototype.fixed()`
-+ ❌`String.prototype.fontcolor()`
-+ ❌`String.prototype.fontsize()`
-+ ❌`String.prototype.italics()`
-+ ❌`String.prototype.small()`
++ 💡 `String.prototype.fromCodePoint()`
++ ✅ `String.prototype.anchor()`
++ ❌ `String.prototype.big()`
++ ❌ `String.prototype.blink()`
++ ❌ `String.prototype.bold()`
++ 💡 `String.prototype.codePointAt()`
++ 💡 `String.prototype.endsWidth()`
++ ❌ `String.prototype.fixed()`
++ ❌ `String.prototype.fontcolor()`
++ ❌ `String.prototype.fontsize()`
++ 💡 `String.prototype.includes()`
++ ❌ `String.prototype.italics()`
++ ✅ `String.prototype.link()`
++ 💡 `String.prototype.normalize()`
++ 💡 `String.prototype.repeat()`
++ ❌ `String.prototype.small()`
++ 💡 `String.prototype.startsWith()`
++ ❌ `String.prototype.strike()`
++ ❌ `String.prototype.stub()`
++ ❌ `String.prototype.sup()`
++ 💡 `String.prototype.[@@iterator]()`
++ 💡 `String.prototype.raw()`
 
 ### Non-standard
-+ ❓`String.prototype.quote()`
-+ ❓`String.prototype.toSource()`
-+ ❓`String.prototype.trimLeft()`
-+ ❓`String.prototype.trimRight()`
++ ❓ `String.prototype.quote()`
++ ❓ `String.prototype.toSource()`
++ ❓ `String.prototype.trimLeft()`
++ ❓ `String.prototype.trimRight()`
 
 # "Falsey" values
 + Don't use `undefined` in your code.
