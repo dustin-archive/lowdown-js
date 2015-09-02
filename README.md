@@ -76,5 +76,11 @@ Single quotes, meaning `'your string looks like this'`.
 + `.length`
   + Returns the length of a string.
 
+# Methods
+## String
++ `.fromCharCode()`
++ `.fromCodePoint()`
++ `.raw()`
+
 # "Falsey" values
 + Don't use `undefined` in your code.
