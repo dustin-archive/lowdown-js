@@ -80,13 +80,14 @@ Single quotes, meaning `'your string looks like this'`.
 
 # Properties
 ## String
-+ `.length`
++ ✅ `.length`
   + Returns the length of a string.  
 
 # Methods
 ## String
 ### ES1
 + ✅ `String.prototype.fromCharCode()`
+  + Returns a string from a sequence of Unicode values.
 + ✅ `String.prototype.charAt()`
 + ✅ `String.prototype.charCodeAt()`
 + ✅ `String.prototype.indexOf()`
@@ -95,6 +96,7 @@ Single quotes, meaning `'your string looks like this'`.
 + ✅ `String.prototype.toLowerCase()`
 + ✅ `String.prototype.toUpperCase()`
 + ✅ `String.prototype.valueOf()`
+  + Returns the primitive value of a String object.
 
 ### ES3
 + ✅ `String.prototype.concat()`
