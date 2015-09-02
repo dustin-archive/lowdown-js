@@ -111,6 +111,7 @@ Single quotes, meaning `'your string looks like this'`.
 
 ### ES5.1
 + ✅ `String.prototype.trim()`
+  + Removes whitespace from both ends of a string.
 
 ### ES6
 + 💡 `String.prototype.fromCodePoint()`
