@@ -34,7 +34,7 @@ Unofficial opinionated TL;DR of JavaScript.
   + Discouraged for arrays. Use `for...of` instead.
 + `for...of`
   + Enumerate arrays and objects.
-+ <s>`for each...in`</s>
++ ~~`for each...in`~~
   + Don't use it. It's obsolete. Use `for...of` instead.
 
 #### `while`
@@ -88,14 +88,14 @@ Status | Name | Info
 
 ### Methods
 #### ES1
-+ ❎ <s>`String.prototype.fromCharCode()`</s>
++ ❎ ~~`String.prototype.fromCharCode()`~~
   + Returns a string from a sequence of Unicode values.
   + Cannot return all Unicode characters. Use `String.fromCodePoint()` instead.
 + ✅ `String.prototype.charAt()`
 + ✅ `String.prototype.charCodeAt()`
 + ✅ `String.prototype.indexOf()`
 + ✅ `String.prototype.lastIndexOf()`
-+ ❎ <s>`String.prototype.substring()`</s>
++ ❎ ~~`String.prototype.substring()`~~
   + Returns a section of a string from a start and an optional end index.
   + Almost identical to `String.prototype.slice()`, use it instead.
 + ✅ `String.prototype.toLowerCase()`
