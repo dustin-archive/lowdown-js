@@ -71,7 +71,7 @@ Unofficial opinionated TL;DR of JavaScript.
 
 ## Legend
 Emoji | Description
------ | -----------
+:---: | -----------
 ✅ | Safe to use
 ❎ | Safe to use but not recommended
 🚧 | Some support
@@ -82,7 +82,7 @@ Emoji | Description
 ### Properties
 #### ES1
 Status | Name | Info
------- | ---- | ----
+:----: | ---- | ----
 ✅ | `String.length` | + Returns the length of a string.  
 ✅ | `String.prototype` | + Represents the string prototype object.
 
