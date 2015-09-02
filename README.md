@@ -21,9 +21,18 @@ It doesn't matter... as long as you use single quotes.
 + `substring` Don't use it because it's just a dumb version of `slice`.
 
 # Loop
-## for and while
+## Statements
 + `for` Use it when you know the start and end of a loop.
++ `do...while`
 + `while` Use it when you don't know the start and end of a loop.
++ `label`
++ `break`
++ `continue`
++ `for...in` Don't use it because it's obsolete. Use `for...of` instead.
++ `for...of`
+
+## Arrays
++ `forEach`
 
 # Functions
 
