@@ -26,3 +26,6 @@ It doesn't matter... as long as you use single quotes.
 + `while` Use it when you don't know the start and end of a loop.
 
 # Functions
+
+# "Falsey" values
++ Don't use 'undefined' in your code.
