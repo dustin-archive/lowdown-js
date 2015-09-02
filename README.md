@@ -20,16 +20,12 @@ Unofficial opinionated TL;DR of JavaScript.
 # Intro
 Intro to JavaScript.
 
-# Emoji Legend
-+ ✅ Safe to use
-+ ❎ Safe to use but not recommended
-+ 💡 Some support
-+ ❌ Deprecated
-+ ❓ Non-standard
-
 # Strings
 ## Single or double quotes?
 Single quotes, meaning `'your string looks like this'`.
+
+# "Falsey" values
++ Don't use `undefined` in your code.
 
 ## `slice`, `substr`, and <s>`substring`</s>
 + `slice`
@@ -76,16 +72,26 @@ Single quotes, meaning `'your string looks like this'`.
 + `continue`
   + Moves to the next iteration.
 
-# Functions
+# Built-in Objects
 
-# Properties
+[Legend](#legend)
+[String](#string)
+[RegExp](#RegExp)
+
+## Legend
++ ✅ Safe to use
++ ❎ Safe to use but not recommended
++ 💡 Some support
++ ❌ Deprecated
++ ❓ Non-standard
+
 ## String
+### Properties
 + ✅ `.length`
   + Returns the length of a string.  
 
-# Methods
-## String
-### ES1
+### Methods
+#### ES1
 + ❎ <s>`String.prototype.fromCharCode()`</s>
   + Returns a string from a sequence of Unicode values.
   + Cannot return all Unicode characters. Use `String.fromCodePoint()` instead.
@@ -101,7 +107,7 @@ Single quotes, meaning `'your string looks like this'`.
 + ✅ `String.prototype.valueOf()`
   + Returns the primitive value of a String object.
 
-### ES3
+#### ES3
 + ✅ `String.prototype.concat()`
 + ✅ `String.prototype.localeCompare()`
 + ✅ `String.prototype.match()`
@@ -115,11 +121,11 @@ Single quotes, meaning `'your string looks like this'`.
 + ✅ `String.prototype.toLocaleUpperCase()`
 + ✅ `String.prototype.toString()`
 
-### ES5.1
+#### ES5.1
 + ✅ `String.prototype.trim()`
   + Removes whitespace from both ends of a string.
 
-### ES6
+#### ES6
 + 💡 `String.prototype.fromCodePoint()`
   + Returns a string from a sequence of code points.
 + ✅ `String.prototype.anchor()`
@@ -144,11 +150,33 @@ Single quotes, meaning `'your string looks like this'`.
 + 💡 `String.prototype.[@@iterator]()`
 + 💡 `String.prototype.raw()`
 
-### Non-standard
+#### Non-standard
 + ❓ `String.prototype.quote()`
 + ❓ `String.prototype.toSource()`
 + ❓ `String.prototype.trimLeft()`
 + ❓ `String.prototype.trimRight()`
 
-# "Falsey" values
-+ Don't use `undefined` in your code.
+## RegExp
+### Properties
++ `RegExp.$1-$9`
++ `RegExp.input ($_)`
++ `RegExp.lastIndex`
++ `RegExp.lastMatch ($&)`
++ `RegExp.lastParen ($+)`
++ `RegExp.lastContext ($`)`
++ `RegExp.prototype`
++ `RegExp.prototype.flags`
++ `RegExp.prototype.global`
++ `RegExp.prototype.ignoreCase`
++ `RegExp.prototype.multiline`
++ `RegExp.prototype.source`
++ `RegExp.prototype.sticky`
++ `RegExp.prototype.unicode`
++ `RegExp.prototype.rightContext ($')`
+
+### Methods
++ `RegExp.prototype.compile()`
++ `RegExp.prototype.exec()`
++ `RegExp.prototype.test()`
++ `RegExp.prototype.toSource()`
++ `RegExp.prototype.toString()`
