@@ -121,25 +121,25 @@ Unofficial opinionated TL;DR of JavaScript.
 #### ES6
 + 🚧 `String.prototype.fromCodePoint()`
   + Returns a string from a sequence of code points.
-+ ✅ `String.prototype.anchor()` <sup>HTML Wrapper</sup>
-+ ❌ `String.prototype.big()` <sup>HTML Wrapper</sup>
-+ ❌ `String.prototype.blink()` <sup>HTML Wrapper</sup>
-+ ❌ `String.prototype.bold()` <sup>HTML Wrapper</sup>
++ ✅ `String.prototype.anchor()` <sub><sup>HTML Wrapper</sup></sub>
++ ❌ `String.prototype.big()` <sub><sup>HTML Wrapper</sup></sub>
++ ❌ `String.prototype.blink()` <sub><sup>HTML Wrapper</sup></sub>
++ ❌ `String.prototype.bold()` <sub><sup>HTML Wrapper</sup></sub>
 + 🚧 `String.prototype.codePointAt()`
 + 🚧 `String.prototype.endsWidth()`
-+ ❌ `String.prototype.fixed()` <sup>HTML Wrapper</sup>
-+ ❌ `String.prototype.fontcolor()` <sup>HTML Wrapper</sup>
-+ ❌ `String.prototype.fontsize()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.fixed()` <sub><sup>HTML Wrapper</sup></sub>
++ ❌ `String.prototype.fontcolor()` <sub><sup>HTML Wrapper</sup></sub>
++ ❌ `String.prototype.fontsize()` <sub><sup>HTML Wrapper</sup></sub>
 + 🚧 `String.prototype.includes()`
-+ ❌ `String.prototype.italics()` <sup>HTML Wrapper</sup>
-+ ✅ `String.prototype.link()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.italics()` <sub><sup>HTML Wrapper</sup></sub>
++ ✅ `String.prototype.link()` <sub><sup>HTML Wrapper</sup></sub>
 + 🚧 `String.prototype.normalize()`
 + 🚧 `String.prototype.repeat()`
-+ ❌ `String.prototype.small()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.small()` <sub><sup>HTML Wrapper</sup></sub>
 + 🚧 `String.prototype.startsWith()`
-+ ❌ `String.prototype.strike()` <sup>HTML Wrapper</sup>
-+ ❌ `String.prototype.stub()` <sup>HTML Wrapper</sup>
-+ ❌ `String.prototype.sup()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.strike()` <sub><sup>HTML Wrapper</sup></sub>
++ ❌ `String.prototype.stub()` <sub><sup>HTML Wrapper</sup></sub>
++ ❌ `String.prototype.sup()` <sub><sup>HTML Wrapper</sup></sub>
 + 🚧 `String.prototype.[@@iterator]()`
 + 🚧 `String.prototype.raw()`
 
