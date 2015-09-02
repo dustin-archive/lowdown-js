@@ -82,7 +82,7 @@ Single quotes, meaning `'your string looks like this'`.
 ## Legend
 + ✅ Safe to use
 + ❎ Safe to use but not recommended
-+ ⚠ Some support
++ 🚧 Some support
 + ❌ Deprecated
 + ❓ Non-standard
 
@@ -127,29 +127,29 @@ Single quotes, meaning `'your string looks like this'`.
   + Removes whitespace from both ends of a string.
 
 #### ES6
-+ ⚠ `String.prototype.fromCodePoint()`
++ 🚧 `String.prototype.fromCodePoint()`
   + Returns a string from a sequence of code points.
 + ✅ `String.prototype.anchor()`
 + ❌ `String.prototype.big()`
 + ❌ `String.prototype.blink()`
 + ❌ `String.prototype.bold()`
-+ ⚠ `String.prototype.codePointAt()`
-+ ⚠ `String.prototype.endsWidth()`
++ 🚧 `String.prototype.codePointAt()`
++ 🚧 `String.prototype.endsWidth()`
 + ❌ `String.prototype.fixed()`
 + ❌ `String.prototype.fontcolor()`
 + ❌ `String.prototype.fontsize()`
-+ ⚠ `String.prototype.includes()`
++ 🚧 `String.prototype.includes()`
 + ❌ `String.prototype.italics()`
 + ✅ `String.prototype.link()`
-+ ⚠ `String.prototype.normalize()`
-+ ⚠ `String.prototype.repeat()`
++ 🚧 `String.prototype.normalize()`
++ 🚧 `String.prototype.repeat()`
 + ❌ `String.prototype.small()`
-+ ⚠ `String.prototype.startsWith()`
++ 🚧 `String.prototype.startsWith()`
 + ❌ `String.prototype.strike()`
 + ❌ `String.prototype.stub()`
 + ❌ `String.prototype.sup()`
-+ ⚠ `String.prototype.[@@iterator]()`
-+ ⚠ `String.prototype.raw()`
++ 🚧 `String.prototype.[@@iterator]()`
++ 🚧 `String.prototype.raw()`
 
 #### Non-standard
 + ❓ `String.prototype.quote()`
