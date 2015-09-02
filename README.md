@@ -20,6 +20,12 @@ Unofficial opinionated TL;DR of JavaScript.
 # Intro
 Intro to JavaScript.
 
+# Emoji Legend
++ ✅ Safe to use
++ 💡 Some browser support
++ ❌ Deprecated
++ ❓ Non-standard
+
 # Strings
 ## Single or double quotes?
 Single quotes, meaning `'your string looks like this'`.
