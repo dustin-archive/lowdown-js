@@ -35,7 +35,7 @@ It doesn't matter... as long as you use single quotes.
   + Don't use it because it's obsolete. Use `for...of` instead.
 
 #### `while`
-Use it when you know the start but not the end of a loop.
++ Use it when you know the start but not the end of a loop.
 
 + `do...while`
   + Execute block once before loop.
