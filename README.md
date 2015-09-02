@@ -16,9 +16,12 @@ Intro to JavaScript.
 It doesn't matter... as long as you use single quotes.
 
 ## slice, substr, and substring
-+ `slice` Use it if you know the start and the end.
-+ `substr` Use it if you know the start and the length.
-+ `substring` Don't use it because it's just a dumb version of `slice`.
++ `slice`
+  + Use it if you know the start and the end.
++ `substr`
+  + Use it if you know the start and the length.
++ `substring`
+  + Don't use it because it's just a dumb version of `slice`.
 
 # Loops
 ## Statements
