@@ -28,8 +28,9 @@ It doesn't matter... as long as you use single quotes.
 + `label`
 + `break`
 + `continue`
-+ `for...in` Don't use it because it's obsolete. Use `for...of` instead.
++ `for..in`
 + `for...of`
++ `for each...in` Don't use it because it's obsolete. Use `for...of` instead.
 
 ## Arrays
 + `forEach`
