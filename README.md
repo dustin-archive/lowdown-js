@@ -2,13 +2,11 @@ TLDR.js
 =======
 Unofficial opinionated TL;DR of JavaScript.
 
-
 # Index
 1. [Intro](#intro)
 1. [Strings](#strings)
 1. [Loops](#Loops)
 1. [Functions](#functions)
-
 
 # Intro
 Intro to JavaScript.
@@ -25,6 +23,6 @@ It doesn't matter... as long as you use single quotes.
 # Loop
 ## for and while
 + `for` Use it when you know the start and end of a loop.
-+ `while` Use it when you dont' know the start and end of a loop.
++ `while` Use it when you don't know the start and end of a loop.
 
 # Functions
