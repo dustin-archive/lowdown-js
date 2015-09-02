@@ -121,30 +121,36 @@ Unofficial opinionated TL;DR of JavaScript.
 <sub> ✅ </sub> | <sub> `String.prototype.trim()` </sub> | <sub> 🔹 Removes whitespace from both ends of a string. </sub>
 
 #### ES6
+
+##### Not HTML
        | <sub> Name </sub> | <sub> Info </sub>
 :----: | ----------------- | -----------------
 <sub> 🚧 </sub> | <sub> `String.prototype.fromCodePoint()` </sub> | <sub> 🔹 Returns a string from a sequence of code points. </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.anchor()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
-<sub> ❌ </sub> | <sub> `String.prototype.big()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
-<sub> ❌ </sub> | <sub> `String.prototype.blink()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
-<sub> ❌ </sub> | <sub> `String.prototype.bold()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
 <sub> 🚧 </sub> | <sub> `String.prototype.codePointAt()` </sub>
 <sub> 🚧 </sub> | <sub> `String.prototype.endsWidth()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.fixed()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
-<sub> ❌ </sub> | <sub> `String.prototype.fontcolor()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
-<sub> ❌ </sub> | <sub> `String.prototype.fontsize()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
 <sub> 🚧 </sub> | <sub> `String.prototype.includes()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.italics()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
-<sub> ✅ </sub> | <sub> `String.prototype.link()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
 <sub> 🚧 </sub> | <sub> `String.prototype.normalize()` </sub>
 <sub> 🚧 </sub> | <sub> `String.prototype.repeat()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.small()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
 <sub> 🚧 </sub> | <sub> `String.prototype.startsWith()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.strike()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
-<sub> ❌ </sub> | <sub> `String.prototype.stub()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
-<sub> ❌ </sub> | <sub> `String.prototype.sup()` </sub> | <sub><sup>HTML Wrapper</sup></sub>
 <sub> 🚧 </sub> | <sub> `String.prototype.[@@iterator]()` </sub>
 <sub> 🚧 </sub> | <sub> `String.prototype.raw()` </sub>
+
+##### HTML Wrappers
+       | <sub> Name </sub> | <sub> Info </sub>
+:----: | ----------------- | -----------------
+<sub> ✅ </sub> | <sub> `String.prototype.anchor()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.big()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.blink()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.bold()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.fixed()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.fontcolor()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.fontsize()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.italics()` </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.link()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.small()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.strike()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.stub()` </sub>
+<sub> ❌ </sub> | <sub> `String.prototype.sup()` </sub>
 
 #### Non-standard
        | <sub> Name </sub> | <sub> Info </sub>
