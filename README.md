@@ -5,17 +5,25 @@ Unofficial opinionated TL;DR of JavaScript.
 # Index
 1. [Intro](#intro)
 1. [Strings](#strings)
-1. [Loops](#Loops)
+<!-- TODO: Numbers, -->
+1. [Numbers](#numbers)
+1. [Arrays](#arrays)
+1. [Objects](#objects)
+1. [Regex](#regex)
 1. [Functions](#functions)
+1. [Basic Conditionals](#basic-conditionals) (`if`, `else if`, etc)
+1. [Loops](#Loops)
+1. [Scoping](#scoping)
+1. [Variables](#variables)
 
 # Intro
 Intro to JavaScript.
 
 # Strings
-## Single or Double quotes?
-It doesn't matter... as long as you use single quotes.
+## Single or double quotes?
+Single quotes, meaning `'your string looks like this'`.
 
-## slice, substr, and substring
+## `slice`, `substr`, and `substring`
 + `slice`
   + Use it if you know the start and the end.
 + `substr`
@@ -44,6 +52,10 @@ It doesn't matter... as long as you use single quotes.
   + Execute block once before loop.
   + Use it when you want to to manipulate the iterator in the loop itself.
 
+#### `Array.prototype.forEach`
++ `.forEach`
+  + Simple way to iterate over an array to get the items and indexes of them.  It follows `.forEach(callback[, thisRef])`, where `thisRef` would be represented as `this` in the callback.  The callback contains the arguments `item, index, array`.
+
 ### Operational
 + `label`
   + Name the loop so you can hop to it with the `condition` statement.
@@ -51,10 +63,6 @@ It doesn't matter... as long as you use single quotes.
   + Stop a loop.
 + `continue`
   + Move to the next iteration.
-
-## Arrays
-+ `forEach`
-  + Iterates through an array with `item, index, array` in the callback. function.
 
 # Functions
 
