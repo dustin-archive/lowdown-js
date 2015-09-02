@@ -94,6 +94,8 @@ Single quotes, meaning `'your string looks like this'`.
 + ✅ `String.prototype.indexOf()`
 + ✅ `String.prototype.lastIndexOf()`
 + ❎ <s>`String.prototype.substring()`</s>
+  + Returns a section of a string from a start and an optional end index.
+  + Almost identical to `String.prototype.slice()`, use it instead.
 + ✅ `String.prototype.toLowerCase()`
 + ✅ `String.prototype.toUpperCase()`
 + ✅ `String.prototype.valueOf()`
@@ -107,6 +109,7 @@ Single quotes, meaning `'your string looks like this'`.
 + ✅ `String.prototype.search()`
 + ✅ `String.prototype.slice()`
 + ✅ `String.prototype.split()`
+  + Returns a section of a string from a start and an optional end index.
 + ✅ `String.prototype.substr()`
 + ✅ `String.prototype.toLocaleLowerCase()`
 + ✅ `String.prototype.toLocaleUpperCase()`
