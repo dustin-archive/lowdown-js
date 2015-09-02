@@ -90,15 +90,15 @@ Status | Name | Info
 #### ES1
 Status | Name | Info
 :----: | ---- | ----
-❎ | <sub> ~~`String.prototype.fromCharCode()`~~ </sub> | <sub> 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. Use `String.fromCodePoint()` instead. </sub>
-✅ | <sub> `String.prototype.charAt()`</sub>
-✅ | <sub> `String.prototype.charCodeAt()`</sub>
-✅ | <sub> `String.prototype.indexOf()`</sub>
-✅ | <sub> `String.prototype.lastIndexOf()`</sub>
-❎ | <sub> ~~`String.prototype.substring()`~~ </sub> | <sub> 🔹 Returns a section of a string from a start and an optional end index. <br> 🔹 Almost identical to `String.prototype.slice()`, use it instead. </sub>
-✅ | <sub> `String.prototype.toLowerCase()`</sub>
-✅ | <sub> `String.prototype.toUpperCase()`</sub>
-✅ | <sub> `String.prototype.valueOf()` </sub> | <sub> 🔹 Returns the primitive value of a String object. </sub>
+<sub> ❎ </sub> | <sub> ~~`String.prototype.fromCharCode()`~~ </sub> | <sub> 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. Use `String.fromCodePoint()` instead. </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.charAt()`</sub>
+<sub> ✅ </sub> | <sub> `String.prototype.charCodeAt()`</sub>
+<sub> ✅ </sub> | <sub> `String.prototype.indexOf()`</sub>
+<sub> ✅ </sub> | <sub> `String.prototype.lastIndexOf()`</sub>
+<sub> ❎ </sub> | <sub> ~~`String.prototype.substring()`~~ </sub> | <sub> 🔹 Returns a section of a string from a start and an optional end index. <br> 🔹 Almost identical to `String.prototype.slice()`, use it instead. </sub>
+<sub> ✅ </sub> | <sub> `String.prototype.toLowerCase()`</sub>
+<sub> ✅ </sub> | <sub> `String.prototype.toUpperCase()`</sub>
+<sub> ✅ </sub> | <sub> `String.prototype.valueOf()` </sub> | <sub> 🔹 Returns the primitive value of a String object. </sub>
 
 #### ES3
 Status | Name | Info
