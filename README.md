@@ -74,6 +74,7 @@ Single quotes, meaning `'your string looks like this'`.
 
 # Built-in Objects
 
+## Index
 1. [Legend](#legend)
 1. [String](#string)
 1. [RegExp](#RegExp)
