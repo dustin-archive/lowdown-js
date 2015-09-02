@@ -81,14 +81,14 @@ Emoji | Description
 ## String
 ### Properties
 #### ES1
-Status | Name | Info
+       | Name | Info
 :----: | ---- | ----
 ✅ | `String.length` | 🔹 Returns the length of a string.
 ✅ | `String.prototype` | 🔹 Represents the string prototype object.
 
 ### Methods
 #### ES1
-<sub>  </sub> | <sub> Name </sub> | <sub> Info </sub>
+       | <sub> Name </sub> | <sub> Info </sub>
 :----: | ---- | ----
 <sub> ❎ </sub> | <sub> ~~`String.prototype.fromCharCode()`~~ </sub> | <sub> 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. <br> 🔹 Use `String.fromCodePoint()` instead. </sub>
 <sub> ✅ </sub> | <sub> `String.prototype.charAt()` </sub>
@@ -101,7 +101,7 @@ Status | Name | Info
 <sub> ✅ </sub> | <sub> `String.prototype.valueOf()` </sub> | <sub> 🔹 Returns the primitive value of a String object. </sub>
 
 #### ES3
-Status | Name | Info
+       | Name | Info
 :----: | ---- | ----
 ✅ | `String.prototype.concat()`
 ✅ | `String.prototype.localeCompare()`
@@ -116,12 +116,12 @@ Status | Name | Info
 ✅ | `String.prototype.toString()`
 
 #### ES5.1
-Status | Name | Info
+       | Name | Info
 :----: | ---- | ----
 ✅ | `String.prototype.trim()` | 🔹 Removes whitespace from both ends of a string.
 
 #### ES6
-Status | Name | Info
+       | Name | Info
 :----: | ---- | ----
 🚧 | `String.prototype.fromCodePoint()` | 🔹 Returns a string from a sequence of code points.
 ✅ | `String.prototype.anchor()` | <sub><sup>HTML Wrapper</sup></sub>
@@ -147,7 +147,7 @@ Status | Name | Info
 🚧 | `String.prototype.raw()`
 
 #### Non-standard
-Status | Name | Info
+       | Name | Info
 :----: | ---- | ----
 ❓ | `String.prototype.quote()`
 ❓ | `String.prototype.toSource()`
