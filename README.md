@@ -22,7 +22,7 @@ Intro to JavaScript.
 
 # Emoji Legend
 + ✅ Safe to use
-+ 💡 Some browser support
++ 💡 Some support
 + ❌ Deprecated
 + ❓ Non-standard
 
