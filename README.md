@@ -16,13 +16,6 @@ Unofficial opinionated TL;DR of JavaScript.
 1. [Variables](#variables)
 1. [Other](#other)
 
-# Intro
-Intro to JavaScript.
-
-# Strings
-## Single or double quotes?
-Single quotes, meaning `'your string looks like this'`.
-
 ## `slice`, `substr`, and <s>`substring`</s>
 + `slice`
   + Use it if you know the start and end indexes.
