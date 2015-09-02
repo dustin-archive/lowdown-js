@@ -22,15 +22,18 @@ It doesn't matter... as long as you use single quotes.
 
 # Loops
 ## Statements
+### Conditional
 + `for` Use it when you know the start and end of a loop.
-+ `do...while`
+  + `for...in`
+  + `for...of`
+  + `for each...in` Don't use it because it's obsolete. Use `for...of` instead.
 + `while` Use it when you know the start but not the end of a loop.
-+ `label`
+  + `do...while`
+
+### Operational
++ *`label`
 + `break`
 + `continue`
-+ `for...in`
-+ `for...of`
-+ `for each...in` Don't use it because it's obsolete. Use `for...of` instead.
 
 ## Arrays
 + `forEach`
