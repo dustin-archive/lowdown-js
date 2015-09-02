@@ -74,9 +74,9 @@ Single quotes, meaning `'your string looks like this'`.
 
 # Built-in Objects
 
-[Legend](#legend)
-[String](#string)
-[RegExp](#RegExp)
+1. [Legend](#legend)
+1. [String](#string)
+1. [RegExp](#RegExp)
 
 ## Legend
 + ✅ Safe to use
