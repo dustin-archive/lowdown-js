@@ -90,15 +90,15 @@ Status | Name | Info
 #### ES1
 Status | Name | Info
 :----: | ---- | ----
-❎ | ~~`String.prototype.fromCharCode()`~~ | + Returns a string from a sequence of Unicode values. <br> + Cannot return all Unicode characters. Use `String.fromCodePoint()` instead.
+❎ | ~~`String.prototype.fromCharCode()`~~ | 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. Use `String.fromCodePoint()` instead.
 ✅ | `String.prototype.charAt()`
 ✅ | `String.prototype.charCodeAt()`
 ✅ | `String.prototype.indexOf()`
 ✅ | `String.prototype.lastIndexOf()`
-❎ | ~~`String.prototype.substring()`~~ | + Returns a section of a string from a start and an optional end index. <br> + Almost identical to `String.prototype.slice()`, use it instead.
+❎ | ~~`String.prototype.substring()`~~ | 🔹 Returns a section of a string from a start and an optional end index. <br> 🔹 Almost identical to `String.prototype.slice()`, use it instead.
 ✅ | `String.prototype.toLowerCase()`
 ✅ | `String.prototype.toUpperCase()`
-✅ | `String.prototype.valueOf()` | + Returns the primitive value of a String object.
+✅ | `String.prototype.valueOf()` | 🔹 Returns the primitive value of a String object.
 
 #### ES3
 + ✅ `String.prototype.concat()`
