@@ -8,14 +8,13 @@ Unofficial opinionated TL;DR of JavaScript.
 1. [Numbers](#numbers)
 1. [Arrays](#arrays)
 1. [Objects](#objects)
-1. [Regex](#regex)
+1. [RegExp](#regexp)
 1. [Functions](#functions)
 1. [Basic Conditionals](#basic-conditionals) (`if`, `else if`, etc)
-1. [Loops](#Loops)
+1. [Loops](#loops)
 1. [Scoping](#scoping)
 1. [Variables](#variables)
-1. [Methods](#methods)
-1. [Properties](#properties)
+1. [Other](#other)
 
 # Intro
 Intro to JavaScript.
@@ -23,9 +22,6 @@ Intro to JavaScript.
 # Strings
 ## Single or double quotes?
 Single quotes, meaning `'your string looks like this'`.
-
-# "Falsey" values
-+ Don't use `undefined` in your code.
 
 ## `slice`, `substr`, and <s>`substring`</s>
 + `slice`
@@ -36,6 +32,13 @@ Single quotes, meaning `'your string looks like this'`.
   + Use it if you know the start index and the length.
 + <s>`substring`</s>
   + Don't use it. It's just a dumb version of `slice`. Use `slice` instead.
+
+# Numbers
+# Arrays
+# Objects
+# RegExp
+# Functions
+# Basic Conditionals
 
 # Loops
 ## Statements
@@ -71,6 +74,11 @@ Single quotes, meaning `'your string looks like this'`.
   + Stops a loop.
 + `continue`
   + Moves to the next iteration.
+
+# Variables
+# Other
+
+---
 
 # Built-in Objects
 
