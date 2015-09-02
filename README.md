@@ -14,7 +14,6 @@ Unofficial opinionated TL;DR of JavaScript.
 1. [Loops](#Loops)
 1. [Scoping](#scoping)
 1. [Variables](#variables)
-1. [Loops](#Loops)
 
 # Intro
 Intro to JavaScript.
