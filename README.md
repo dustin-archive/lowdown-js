@@ -28,7 +28,7 @@ It doesn't matter... as long as you use single quotes.
 + `label`
 + `break`
 + `continue`
-+ `for..in`
++ `for...in`
 + `for...of`
 + `for each...in` Don't use it because it's obsolete. Use `for...of` instead.
 
