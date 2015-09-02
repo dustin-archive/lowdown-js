@@ -24,8 +24,8 @@ It doesn't matter... as long as you use single quotes.
 ## Statements
 ### Conditional
 #### `for`
-+ Use it when you know the start and end of a loop.
-
++ `for`
+  + Use it when you know the start and end of a loop.
 + `for...in`
   + Enumerate over an object.
   + Discouraged for arrays. Use `for...of` instead.
@@ -35,8 +35,8 @@ It doesn't matter... as long as you use single quotes.
   + Don't use it because it's obsolete. Use `for...of` instead.
 
 #### `while`
-+ Use it when you know the start but not the end of a loop.
-
++ `while`
+  + Use it when you know the start but not the end of a loop.
 + `do...while`
   + Execute block once before loop.
   + Use it when you want to to manipulate the iterator in the loop itself.
