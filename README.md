@@ -31,7 +31,7 @@ It doesn't matter... as long as you use single quotes.
   + `do...while`
 
 ### Operational
-+ *`label`
++ `label`
 + `break`
 + `continue`
 
