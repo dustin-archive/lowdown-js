@@ -86,8 +86,9 @@ Single quotes, meaning `'your string looks like this'`.
 # Methods
 ## String
 ### ES1
-+ ✅ `String.prototype.fromCharCode()`
++ ❎ <s>`String.prototype.fromCharCode()`</s>
   + Returns a string from a sequence of Unicode values.
+  + Cannot return all Unicode characters. Use `String.fromCodePoint()` instead.
 + ✅ `String.prototype.charAt()`
 + ✅ `String.prototype.charCodeAt()`
 + ✅ `String.prototype.indexOf()`
@@ -117,6 +118,7 @@ Single quotes, meaning `'your string looks like this'`.
 
 ### ES6
 + 💡 `String.prototype.fromCodePoint()`
+  + Returns a string from a sequence of code points.
 + ✅ `String.prototype.anchor()`
 + ❌ `String.prototype.big()`
 + ❌ `String.prototype.blink()`
