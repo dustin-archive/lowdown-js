@@ -121,25 +121,25 @@ Unofficial opinionated TL;DR of JavaScript.
 #### ES6
 + 🚧 `String.prototype.fromCodePoint()`
   + Returns a string from a sequence of code points.
-+ ✅ `String.prototype.anchor()` <small>HTML Wrapper</small>
-+ ❌ `String.prototype.big()` <small>HTML Wrapper</small>
-+ ❌ `String.prototype.blink()` <small>HTML Wrapper</small>
-+ ❌ `String.prototype.bold()` <small>HTML Wrapper</small>
++ ✅ `String.prototype.anchor()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.big()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.blink()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.bold()` <sup>HTML Wrapper</sup>
 + 🚧 `String.prototype.codePointAt()`
 + 🚧 `String.prototype.endsWidth()`
-+ ❌ `String.prototype.fixed()` <small>HTML Wrapper</small>
-+ ❌ `String.prototype.fontcolor()` <small>HTML Wrapper</small>
-+ ❌ `String.prototype.fontsize()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.fixed()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.fontcolor()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.fontsize()` <sup>HTML Wrapper</sup>
 + 🚧 `String.prototype.includes()`
-+ ❌ `String.prototype.italics()` <small>HTML Wrapper</small>
-+ ✅ `String.prototype.link()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.italics()` <sup>HTML Wrapper</sup>
++ ✅ `String.prototype.link()` <sup>HTML Wrapper</sup>
 + 🚧 `String.prototype.normalize()`
 + 🚧 `String.prototype.repeat()`
-+ ❌ `String.prototype.small()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.small()` <sup>HTML Wrapper</sup>
 + 🚧 `String.prototype.startsWith()`
-+ ❌ `String.prototype.strike()` <small>HTML Wrapper</small>
-+ ❌ `String.prototype.stub()` <small>HTML Wrapper</small>
-+ ❌ `String.prototype.sup()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.strike()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.stub()` <sup>HTML Wrapper</sup>
++ ❌ `String.prototype.sup()` <sup>HTML Wrapper</sup>
 + 🚧 `String.prototype.[@@iterator]()`
 + 🚧 `String.prototype.raw()`
 
