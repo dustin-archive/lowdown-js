@@ -70,11 +70,13 @@ Unofficial opinionated TL;DR of JavaScript.
 1. [RegExp](#RegExp)
 
 ## Legend
-+ ✅ Safe to use
-+ ❎ Safe to use but not recommended
-+ 🚧 Some support
-+ ❌ Deprecated
-+ ❓ Non-standard
+Emoji | Description
+----- | -----------
+✅     | Safe to use
+❎     | Safe to use but not recommended
+🚧     | Some support
+❌     | Deprecated
+❌     | Non-standard
 
 ## String
 ### Properties
