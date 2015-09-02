@@ -54,7 +54,7 @@ It doesn't matter... as long as you use single quotes.
 
 ## Arrays
 + `forEach`
-  + Iterates through an array with `item, index` in the callback function.
+  + Iterates through an array with `item, index, array` in the callback. function.
 
 # Functions
 
