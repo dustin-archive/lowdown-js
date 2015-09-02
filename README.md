@@ -82,6 +82,7 @@ Emoji | Description
 ### Properties
 #### ES1
 Status | Name | Info
+------ | ---- | ----
 ✅ | `String.length` | + Returns the length of a string.  
 ✅ | `String.prototype` | + Represents the string prototype object.
 
