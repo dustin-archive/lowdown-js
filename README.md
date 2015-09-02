@@ -66,7 +66,6 @@ Unofficial opinionated TL;DR of JavaScript.
 # Built-in Objects
 
 ## Index
-1. [Legend](#legend)
 1. [String](#string)
 1. [RegExp](#RegExp)
 
@@ -79,8 +78,10 @@ Unofficial opinionated TL;DR of JavaScript.
 
 ## String
 ### Properties
-+ ✅ `.length`
+#### ES1
++ ✅ `String.length`
   + Returns the length of a string.  
++ ✅ `String.prototype`
 
 ### Methods
 #### ES1
@@ -120,25 +121,25 @@ Unofficial opinionated TL;DR of JavaScript.
 #### ES6
 + 🚧 `String.prototype.fromCodePoint()`
   + Returns a string from a sequence of code points.
-+ ✅ `String.prototype.anchor()`
-+ ❌ `String.prototype.big()`
-+ ❌ `String.prototype.blink()`
-+ ❌ `String.prototype.bold()`
++ ✅ `String.prototype.anchor()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.big()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.blink()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.bold()` <small>HTML Wrapper</small>
 + 🚧 `String.prototype.codePointAt()`
 + 🚧 `String.prototype.endsWidth()`
-+ ❌ `String.prototype.fixed()`
-+ ❌ `String.prototype.fontcolor()`
-+ ❌ `String.prototype.fontsize()`
++ ❌ `String.prototype.fixed()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.fontcolor()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.fontsize()` <small>HTML Wrapper</small>
 + 🚧 `String.prototype.includes()`
-+ ❌ `String.prototype.italics()`
-+ ✅ `String.prototype.link()`
++ ❌ `String.prototype.italics()` <small>HTML Wrapper</small>
++ ✅ `String.prototype.link()` <small>HTML Wrapper</small>
 + 🚧 `String.prototype.normalize()`
 + 🚧 `String.prototype.repeat()`
-+ ❌ `String.prototype.small()`
++ ❌ `String.prototype.small()` <small>HTML Wrapper</small>
 + 🚧 `String.prototype.startsWith()`
-+ ❌ `String.prototype.strike()`
-+ ❌ `String.prototype.stub()`
-+ ❌ `String.prototype.sup()`
++ ❌ `String.prototype.strike()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.stub()` <small>HTML Wrapper</small>
++ ❌ `String.prototype.sup()` <small>HTML Wrapper</small>
 + 🚧 `String.prototype.[@@iterator]()`
 + 🚧 `String.prototype.raw()`
 
