@@ -31,7 +31,9 @@ It doesn't matter... as long as you use single quotes.
 
 #### While
 + `while`: Use it when you know the start but not the end of a loop.
-+ `do...while`: Execute block once before loop.
++ `do...while`
+  + Execute block once before loop.
+  + Use it when you want to to manipulate the iterator in the loop itself.
 
 ### Operational
 + `label`: Name the loop so you can hop to it with the `condition` statement.
