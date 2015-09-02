@@ -90,7 +90,7 @@ Status | Name | Info
 #### ES1
 <sub>  </sub> | <sub> Name </sub> | <sub> Info </sub>
 :----: | ---- | ----
-<sub> ❎ </sub> | <sub> ~~`String.prototype.fromCharCode()`~~ </sub> | <sub> 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. Use `String.fromCodePoint()` instead. </sub>
+<sub> ❎ </sub> | <sub> ~~`String.prototype.fromCharCode()`~~ </sub> | <sub> 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. <br> 🔹 Use `String.fromCodePoint()` instead. </sub>
 <sub> ✅ </sub> | <sub> `String.prototype.charAt()` </sub>
 <sub> ✅ </sub> | <sub> `String.prototype.charCodeAt()` </sub>
 <sub> ✅ </sub> | <sub> `String.prototype.indexOf()` </sub>
