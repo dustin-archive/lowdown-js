@@ -70,8 +70,8 @@ Unofficial opinionated TL;DR of JavaScript.
 1. [RegExp](#RegExp)
 
 ## Legend
-<sub> Emoji </sub> | <sub> Description </sub>
-:----------------: | ------------------------
+       | <sub> Description </sub>
+:----: | ------------------------
 <sub> ✅ </sub> | <sub> Safe to use </sub>
 <sub> ❎ </sub> | <sub> Safe to use but not recommended </sub>
 <sub> 🚧 </sub> | <sub> Some support </sub>
