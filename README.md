@@ -76,7 +76,7 @@ Emoji | Description
 ❎     | Safe to use but not recommended
 🚧     | Some support
 ❌     | Deprecated
-❌     | Non-standard
+❓     | Non-standard
 
 ## String
 ### Properties
