@@ -72,18 +72,18 @@ Unofficial opinionated TL;DR of JavaScript.
 ## Legend
 Emoji | Description
 ----- | -----------
-✅     | Safe to use
-❎     | Safe to use but not recommended
-🚧     | Some support
-❌     | Deprecated
-❓     | Non-standard
+✅ | Safe to use
+❎ | Safe to use but not recommended
+🚧 | Some support
+❌ | Deprecated
+❓ | Non-standard
 
 ## String
 ### Properties
 #### ES1
-+ ✅ `String.length`
-  + Returns the length of a string.  
-+ ✅ `String.prototype`
+Status | Name | Info
+✅ | `String.length` | + Returns the length of a string.  
+✅ | `String.prototype` | + Represents the string prototype object.
 
 ### Methods
 #### ES1
