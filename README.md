@@ -20,7 +20,7 @@ It doesn't matter... as long as you use single quotes.
 + `substr` Use it if you know the start and the length.
 + `substring` Don't use it because it's just a dumb version of `slice`.
 
-# Loop
+# Loops
 ## Statements
 + `for` Use it when you know the start and end of a loop.
 + `do...while`
