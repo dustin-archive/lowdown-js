@@ -55,9 +55,9 @@ Single quotes, meaning `'your string looks like this'`.
 
 #### `Array.prototype.forEach`
 + `.forEach`
-  + Simple way to iterate over an array to get the items and indexes of them.
-  + It follows `.forEach(callback[, thisRef])`, where `thisRef` would be represented as `this` in the callback.
-  + The callback contains the arguments `item, index, array`.
+  + Use it when you want to get each item and index in an array.
+  + It follows `.forEach(callback[, thisArg])`, where `thisRef` would be represented as `this` in the callback.
+  + The callback contains the arguments `currentValue, index, array`.
 
 ### Operational
 + `label`
