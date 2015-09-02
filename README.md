@@ -78,21 +78,14 @@ Single quotes, meaning `'your string looks like this'`.
 
 # Methods
 ## String
-### ES
+### ES1
 + `String.prototype.fromCharCode()`
-+ `String.prototype.anchor()`
+
+### ES1
 + `String.prototype.charAt()`
 + `String.prototype.charCodeAt()`
-+ `String.prototype.concat()`
 + `String.prototype.indexOf()`
 + `String.prototype.lastIndexOf()`
-+ `String.prototype.link()`
-+ `String.prototype.localeCompare()`
-+ `String.prototype.match()`
-+ `String.prototype.replace()`
-+ `String.prototype.search()`
-+ `String.prototype.slice()`
-+ `String.prototype.split()`
 + `String.prototype.substr()`
 + <s>`String.prototype.substring()`</s>
 + `String.prototype.toLocaleLowerCase()`
@@ -104,34 +97,45 @@ Single quotes, meaning `'your string looks like this'`.
 + `String.prototype.valueOf()`
 + `String.prototype.raw()`
 
+### ES3
++ `String.prototype.concat()`
++ `String.prototype.localeCompare()`
++ `String.prototype.match()`
++ `String.prototype.replace()`
++ `String.prototype.search()`
++ `String.prototype.slice()`
++ `String.prototype.split()`
+
 ### ES6
-+ `String.prototype.fromCodePoint()`
-+ `String.prototype.codePointAt()`
-+ `String.prototype.endsWidth()`
-+ `String.prototype.includes()`
-+ `String.prototype.normalize()`
-+ `String.prototype.repeat()`
-+ `String.prototype.startsWith()`
-+ `String.prototype.[@@iterator]()`
++ 💡`String.prototype.fromCodePoint()`
++ ✅`String.prototype.anchor()`
++ 💡`String.prototype.codePointAt()`
++ 💡`String.prototype.endsWidth()`
++ 💡`String.prototype.includes()`
++ ✅`String.prototype.link()`
++ 💡`String.prototype.normalize()`
++ 💡`String.prototype.repeat()`
++ 💡`String.prototype.startsWith()`
++ ❌`String.prototype.strike()`
++ 💡`String.prototype.[@@iterator]()`
 
 ### Deprecated
-+ `String.prototype.big()`
-+ `String.prototype.blink()`
-+ `String.prototype.bold()`
-+ `String.prototype.fixed()`
-+ `String.prototype.fontcolor()`
-+ `String.prototype.fontsize()`
-+ `String.prototype.italics()`
-+ `String.prototype.small()`
-+ `String.prototype.strike()`
-+ `String.prototype.stub()`
-+ `String.prototype.sup()`
++ ❌`String.prototype.big()`
++ ❌`String.prototype.blink()`
++ ❌`String.prototype.bold()`
++ ❌`String.prototype.fixed()`
++ ❌`String.prototype.fontcolor()`
++ ❌`String.prototype.fontsize()`
++ ❌`String.prototype.italics()`
++ ❌`String.prototype.small()`
++ ❌`String.prototype.stub()`
++ ❌`String.prototype.sup()`
 
 ### Non-standard
-+ `String.prototype.quote()`
-+ `String.prototype.toSource()`
-+ `String.prototype.trimLeft()`
-+ `String.prototype.trimRight()`
++ ❓`String.prototype.quote()`
++ ❓`String.prototype.toSource()`
++ ❓`String.prototype.trimLeft()`
++ ❓`String.prototype.trimRight()`
 
 # "Falsey" values
 + Don't use `undefined` in your code.
