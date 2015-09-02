@@ -139,26 +139,26 @@ Unofficial opinionated TL;DR of JavaScript.
        | <sub> Name </sub> | <sub> Info </sub>
 :----: | ----------------- | -----------------
 <sub> ✅ </sub> | <sub> `String.prototype.anchor()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.big()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.blink()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.bold()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.fixed()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.fontcolor()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.fontsize()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.italics()` </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.big()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.blink()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.bold()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.fixed()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.fontcolor()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.fontsize()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.italics()`~~ </sub>
 <sub> ✅ </sub> | <sub> `String.prototype.link()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.small()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.strike()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.stub()` </sub>
-<sub> ❌ </sub> | <sub> `String.prototype.sup()` </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.small()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.strike()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.stub()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`String.prototype.sup()`~~ </sub>
 
 #### Non-standard
        | <sub> Name </sub> | <sub> Info </sub>
 :----: | ----------------- | -----------------
-<sub> ❓ </sub> | <sub> `String.prototype.quote()` </sub>
-<sub> ❓ </sub> | <sub> `String.prototype.toSource()` </sub>
-<sub> ❓ </sub> | <sub> `String.prototype.trimLeft()` </sub>
-<sub> ❓ </sub> | <sub> `String.prototype.trimRight()` </sub>
+<sub> ❓ </sub> | <sub> ~~`String.prototype.quote()`~~ </sub>
+<sub> ❓ </sub> | <sub> ~~`String.prototype.toSource()`~~ </sub>
+<sub> ❓ </sub> | <sub> ~~`String.prototype.trimLeft()`~~ </sub>
+<sub> ❓ </sub> | <sub> ~~`String.prototype.trimRight()`~~ </sub>
 
 ## RegExp
 ### Properties
