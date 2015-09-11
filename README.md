@@ -70,95 +70,95 @@ Unofficial opinionated TL;DR of JavaScript.
 1. [RegExp](#RegExp)
 
 ## Legend
-       | <sub> Description </sub>
+       | Description
 :----: | ------------------------
-<sub> ✅ </sub> | <sub> Safe to use </sub>
-<sub> ❎ </sub> | <sub> Safe to use but not recommended </sub>
-<sub> 🚧 </sub> | <sub> Some support </sub>
-<sub> ❌ </sub> | <sub> Deprecated </sub>
-<sub> ❓ </sub> | <sub> Non-standard </sub>
+✅ | Safe to use
+❎ | Safe to use but not recommended
+🚧 | Some support
+❌ | Deprecated
+❓ | Non-standard
 
 ## String
 ### Properties
 #### ES1
-       | <sub> String.*property* </sub> | <sub> Info </sub>
+       | String.*property* | Info
 :----: | ----------------- | -----------------
-<sub> ✅ </sub> | <sub> `length` </sub> | <sub> 🔹 Returns the length of a string. </sub>
-<sub> ✅ </sub> | <sub> `prototype` </sub> | <sub> 🔹 Represents the string prototype object. </sub>
+✅ | `length` | 🔹 Returns the length of a string.
+✅ | `prototype` | 🔹 Represents the string prototype object.
 
 ### Methods
 #### ES1
-       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
+       | String.prototype.*method* | Info
 :----: | ----------------- | -----------------
-<sub> ❎ </sub> | <sub> ~~`fromCharCode()`~~ </sub> | <sub> 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. <br> 🔹 Use `String.fromCodePoint()` instead. </sub>
-<sub> ✅ </sub> | <sub> `charAt()` </sub>
-<sub> ✅ </sub> | <sub> `charCodeAt()` </sub>
-<sub> ✅ </sub> | <sub> `indexOf()` </sub>
-<sub> ✅ </sub> | <sub> `lastIndexOf()` </sub>
-<sub> ❎ </sub> | <sub> ~~`substring()`~~ </sub> | <sub> 🔹 Returns a section of a string from a start and an optional end index. <br> 🔹 Almost identical to `String.prototype.slice()`, use it instead. </sub>
-<sub> ✅ </sub> | <sub> `toLowerCase()` </sub>
-<sub> ✅ </sub> | <sub> `toUpperCase()` </sub>
-<sub> ✅ </sub> | <sub> `valueOf()` </sub> | <sub> 🔹 Returns the primitive value of a String object. </sub>
+❎ | ~~`fromCharCode()`~~ | 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. <br> 🔹 Use `String.fromCodePoint()` instead.
+✅ | `charAt()`
+✅ | `charCodeAt()`
+✅ | `indexOf()`
+✅ | `lastIndexOf()`
+❎ | ~~`substring()`~~ | 🔹 Returns a section of a string from a start and an optional end index. <br> 🔹 Almost identical to `String.prototype.slice()`, use it instead.
+✅ | `toLowerCase()`
+✅ | `toUpperCase()`
+✅ | `valueOf()` | 🔹 Returns the primitive value of a String object.
 
 #### ES3
-       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
+       | String.prototype.*method* | Info
 :----: | ----------------- | -----------------
-<sub> ✅ </sub> | <sub> `concat()` </sub>
-<sub> ✅ </sub> | <sub> `localeCompare()` </sub>
-<sub> ✅ </sub> | <sub> `match()` </sub>
-<sub> ✅ </sub> | <sub> `replace()` </sub>
-<sub> ✅ </sub> | <sub> `search()` </sub>
-<sub> ✅ </sub> | <sub> `slice()` </sub>
-<sub> ✅ </sub> | <sub> `split()` </sub> | <sub> 🔹 Returns a section of a string from a start and an optional end index. </sub>
-<sub> ✅ </sub> | <sub> `substr()` </sub>
-<sub> ✅ </sub> | <sub> `toLocaleLowerCase()` </sub>
-<sub> ✅ </sub> | <sub> `toLocaleUpperCase()` </sub>
-<sub> ✅ </sub> | <sub> `toString()` </sub>
+✅ | `concat()`
+✅ | `localeCompare()`
+✅ | `match()`
+✅ | `replace()`
+✅ | `search()`
+✅ | `slice()`
+✅ | `split()` | 🔹 Returns a section of a string from a start and an optional end index.
+✅ | `substr()`
+✅ | `toLocaleLowerCase()`
+✅ | `toLocaleUpperCase()`
+✅ | `toString()`
 
 #### ES5.1
-       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
+       | String.prototype.*method* | Info
 :----: | ----------------- | -----------------
-<sub> ✅ </sub> | <sub> `trim()` </sub> | <sub> 🔹 Removes whitespace from both ends of a string. </sub>
+✅ | `trim()` | 🔹 Removes whitespace from both ends of a string.
 
 #### ES6
 
 ##### Not HTML
-       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
+       | String.prototype.*method* | Info
 :----: | ----------------- | -----------------
-<sub> 🚧 </sub> | <sub> `String.prototype.fromCodePoint()` </sub> | <sub> 🔹 Returns a string from a sequence of code points. </sub>
-<sub> 🚧 </sub> | <sub> `codePointAt()` </sub>
-<sub> 🚧 </sub> | <sub> `endsWidth()` </sub>
-<sub> 🚧 </sub> | <sub> `includes()` </sub>
-<sub> 🚧 </sub> | <sub> `normalize()` </sub>
-<sub> 🚧 </sub> | <sub> `repeat()` </sub>
-<sub> 🚧 </sub> | <sub> `startsWith()` </sub>
-<sub> 🚧 </sub> | <sub> `[@@iterator]()` </sub>
-<sub> 🚧 </sub> | <sub> `raw()` </sub>
+🚧 | `String.prototype.fromCodePoint()` | 🔹 Returns a string from a sequence of code points.
+🚧 | `codePointAt()`
+🚧 | `endsWidth()`
+🚧 | `includes()`
+🚧 | `normalize()`
+🚧 | `repeat()`
+🚧 | `startsWith()`
+🚧 | `[@@iterator]()`
+🚧 | `raw()`
 
 ##### HTML Wrappers
-       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
+       | String.prototype.*method* | Info
 :----: | ----------------- | -----------------
-<sub> ✅ </sub> | <sub> `anchor()` </sub>
-<sub> ❌ </sub> | <sub> ~~`big()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`blink()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`bold()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`fixed()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`fontcolor()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`fontsize()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`italics()`~~ </sub>
-<sub> ✅ </sub> | <sub> `link()` </sub>
-<sub> ❌ </sub> | <sub> ~~`small()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`strike()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`stub()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`sup()`~~ </sub>
+✅ | `anchor()`
+❌ | ~~`big()`~~
+❌ | ~~`blink()`~~
+❌ | ~~`bold()`~~
+❌ | ~~`fixed()`~~
+❌ | ~~`fontcolor()`~~
+❌ | ~~`fontsize()`~~
+❌ | ~~`italics()`~~
+✅ | `link()`
+❌ | ~~`small()`~~
+❌ | ~~`strike()`~~
+❌ | ~~`stub()`~~
+❌ | ~~`sup()`~~
 
 #### Non-standard
-       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
+       | String.prototype.*method* | Info
 :----: | ----------------- | -----------------
-<sub> ❓ </sub> | <sub> ~~`quote()`~~ </sub>
-<sub> ❓ </sub> | <sub> ~~`toSource()`~~ </sub>
-<sub> ❓ </sub> | <sub> ~~`trimLeft()`~~ </sub>
-<sub> ❓ </sub> | <sub> ~~`trimRight()`~~ </sub>
+❓ | ~~`quote()`~~
+❓ | ~~`toSource()`~~
+❓ | ~~`trimLeft()`~~
+❓ | ~~`trimRight()`~~
 
 ## RegExp
 ### Properties
