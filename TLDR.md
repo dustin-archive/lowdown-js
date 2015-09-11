@@ -121,7 +121,7 @@
 ##### Not HTML
        | String.prototype.*method* | Info
 :----: | ----------------- | -----------------
-🚧 | `String.prototype.fromCodePoint()` | 🔹 Returns a string from a sequence of code points.
+🚧 | `fromCodePoint()` | 🔹 Returns a string from a sequence of code points.
 🚧 | `codePointAt()`
 🚧 | `endsWidth()`
 🚧 | `includes()`
