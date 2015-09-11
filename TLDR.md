@@ -84,7 +84,7 @@
 
 ### Methods
 #### ES1
-       | String.prototype.*method* | Info
+       | String.prototype.*method()* | Info
 :----: | ----------------- | -----------------
 ❎ | ~~`fromCharCode()`~~ | 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. <br> 🔹 Use `String.fromCodePoint()` instead.
 ✅ | `charAt()`
@@ -97,7 +97,7 @@
 ✅ | `valueOf()` | 🔹 Returns the primitive value of a String object.
 
 #### ES3
-       | String.prototype.*method* | Info
+       | String.prototype.*method()* | Info
 :----: | ----------------- | -----------------
 ✅ | `concat()`
 ✅ | `localeCompare()`
@@ -112,14 +112,14 @@
 ✅ | `toString()`
 
 #### ES5.1
-       | String.prototype.*method* | Info
+       | String.prototype.*method()* | Info
 :----: | ----------------- | -----------------
 ✅ | `trim()` | 🔹 Removes whitespace from both ends of a string.
 
 #### ES6
 
 ##### Not HTML
-       | String.prototype.*method* | Info
+       | String.prototype.*method()* | Info
 :----: | ----------------- | -----------------
 🚧 | `fromCodePoint()` | 🔹 Returns a string from a sequence of code points.
 🚧 | `codePointAt()`
@@ -132,7 +132,7 @@
 🚧 | `raw()`
 
 ##### HTML Wrappers
-       | String.prototype.*method* | Info
+       | String.prototype.*method()* | Info
 :----: | ----------------- | -----------------
 ✅ | `anchor()`
 ❌ | ~~`big()`~~
@@ -149,7 +149,7 @@
 ❌ | ~~`sup()`~~
 
 #### Non-standard
-       | String.prototype.*method* | Info
+       | String.prototype.*method()* | Info
 :----: | ----------------- | -----------------
 ❓ | ~~`quote()`~~
 ❓ | ~~`toSource()`~~
