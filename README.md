@@ -81,84 +81,84 @@ Unofficial opinionated TL;DR of JavaScript.
 ## String
 ### Properties
 #### ES1
-       | <sub> Name </sub> | <sub> Info </sub>
+       | <sub> String.*property* </sub> | <sub> Info </sub>
 :----: | ----------------- | -----------------
-<sub> ✅ </sub> | <sub> `String.length` </sub> | <sub> 🔹 Returns the length of a string. </sub>
-<sub> ✅ </sub> | <sub> `String.prototype` </sub> | <sub> 🔹 Represents the string prototype object. </sub>
+<sub> ✅ </sub> | <sub> `length` </sub> | <sub> 🔹 Returns the length of a string. </sub>
+<sub> ✅ </sub> | <sub> `prototype` </sub> | <sub> 🔹 Represents the string prototype object. </sub>
 
 ### Methods
 #### ES1
-       | <sub> Name </sub> | <sub> Info </sub>
+       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
 :----: | ----------------- | -----------------
-<sub> ❎ </sub> | <sub> ~~`String.prototype.fromCharCode()`~~ </sub> | <sub> 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. <br> 🔹 Use `String.fromCodePoint()` instead. </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.charAt()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.charCodeAt()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.indexOf()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.lastIndexOf()` </sub>
-<sub> ❎ </sub> | <sub> ~~`String.prototype.substring()`~~ </sub> | <sub> 🔹 Returns a section of a string from a start and an optional end index. <br> 🔹 Almost identical to `String.prototype.slice()`, use it instead. </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.toLowerCase()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.toUpperCase()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.valueOf()` </sub> | <sub> 🔹 Returns the primitive value of a String object. </sub>
+<sub> ❎ </sub> | <sub> ~~`fromCharCode()`~~ </sub> | <sub> 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. <br> 🔹 Use `String.fromCodePoint()` instead. </sub>
+<sub> ✅ </sub> | <sub> `charAt()` </sub>
+<sub> ✅ </sub> | <sub> `charCodeAt()` </sub>
+<sub> ✅ </sub> | <sub> `indexOf()` </sub>
+<sub> ✅ </sub> | <sub> `lastIndexOf()` </sub>
+<sub> ❎ </sub> | <sub> ~~`substring()`~~ </sub> | <sub> 🔹 Returns a section of a string from a start and an optional end index. <br> 🔹 Almost identical to `String.prototype.slice()`, use it instead. </sub>
+<sub> ✅ </sub> | <sub> `toLowerCase()` </sub>
+<sub> ✅ </sub> | <sub> `toUpperCase()` </sub>
+<sub> ✅ </sub> | <sub> `valueOf()` </sub> | <sub> 🔹 Returns the primitive value of a String object. </sub>
 
 #### ES3
-       | <sub> Name </sub> | <sub> Info </sub>
+       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
 :----: | ----------------- | -----------------
-<sub> ✅ </sub> | <sub> `String.prototype.concat()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.localeCompare()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.match()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.replace()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.search()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.slice()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.split()` </sub> | <sub> 🔹 Returns a section of a string from a start and an optional end index. </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.substr()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.toLocaleLowerCase()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.toLocaleUpperCase()` </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.toString()` </sub>
+<sub> ✅ </sub> | <sub> `concat()` </sub>
+<sub> ✅ </sub> | <sub> `localeCompare()` </sub>
+<sub> ✅ </sub> | <sub> `match()` </sub>
+<sub> ✅ </sub> | <sub> `replace()` </sub>
+<sub> ✅ </sub> | <sub> `search()` </sub>
+<sub> ✅ </sub> | <sub> `slice()` </sub>
+<sub> ✅ </sub> | <sub> `split()` </sub> | <sub> 🔹 Returns a section of a string from a start and an optional end index. </sub>
+<sub> ✅ </sub> | <sub> `substr()` </sub>
+<sub> ✅ </sub> | <sub> `toLocaleLowerCase()` </sub>
+<sub> ✅ </sub> | <sub> `toLocaleUpperCase()` </sub>
+<sub> ✅ </sub> | <sub> `toString()` </sub>
 
 #### ES5.1
-       | <sub> Name </sub> | <sub> Info </sub>
+       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
 :----: | ----------------- | -----------------
-<sub> ✅ </sub> | <sub> `String.prototype.trim()` </sub> | <sub> 🔹 Removes whitespace from both ends of a string. </sub>
+<sub> ✅ </sub> | <sub> `trim()` </sub> | <sub> 🔹 Removes whitespace from both ends of a string. </sub>
 
 #### ES6
 
 ##### Not HTML
-       | <sub> Name </sub> | <sub> Info </sub>
+       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
 :----: | ----------------- | -----------------
 <sub> 🚧 </sub> | <sub> `String.prototype.fromCodePoint()` </sub> | <sub> 🔹 Returns a string from a sequence of code points. </sub>
-<sub> 🚧 </sub> | <sub> `String.prototype.codePointAt()` </sub>
-<sub> 🚧 </sub> | <sub> `String.prototype.endsWidth()` </sub>
-<sub> 🚧 </sub> | <sub> `String.prototype.includes()` </sub>
-<sub> 🚧 </sub> | <sub> `String.prototype.normalize()` </sub>
-<sub> 🚧 </sub> | <sub> `String.prototype.repeat()` </sub>
-<sub> 🚧 </sub> | <sub> `String.prototype.startsWith()` </sub>
-<sub> 🚧 </sub> | <sub> `String.prototype.[@@iterator]()` </sub>
-<sub> 🚧 </sub> | <sub> `String.prototype.raw()` </sub>
+<sub> 🚧 </sub> | <sub> `codePointAt()` </sub>
+<sub> 🚧 </sub> | <sub> `endsWidth()` </sub>
+<sub> 🚧 </sub> | <sub> `includes()` </sub>
+<sub> 🚧 </sub> | <sub> `normalize()` </sub>
+<sub> 🚧 </sub> | <sub> `repeat()` </sub>
+<sub> 🚧 </sub> | <sub> `startsWith()` </sub>
+<sub> 🚧 </sub> | <sub> `[@@iterator]()` </sub>
+<sub> 🚧 </sub> | <sub> `raw()` </sub>
 
 ##### HTML Wrappers
-       | <sub> Name </sub> | <sub> Info </sub>
+       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
 :----: | ----------------- | -----------------
-<sub> ✅ </sub> | <sub> `String.prototype.anchor()` </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.big()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.blink()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.bold()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.fixed()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.fontcolor()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.fontsize()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.italics()`~~ </sub>
-<sub> ✅ </sub> | <sub> `String.prototype.link()` </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.small()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.strike()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.stub()`~~ </sub>
-<sub> ❌ </sub> | <sub> ~~`String.prototype.sup()`~~ </sub>
+<sub> ✅ </sub> | <sub> `anchor()` </sub>
+<sub> ❌ </sub> | <sub> ~~`big()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`blink()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`bold()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`fixed()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`fontcolor()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`fontsize()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`italics()`~~ </sub>
+<sub> ✅ </sub> | <sub> `link()` </sub>
+<sub> ❌ </sub> | <sub> ~~`small()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`strike()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`stub()`~~ </sub>
+<sub> ❌ </sub> | <sub> ~~`sup()`~~ </sub>
 
 #### Non-standard
-       | <sub> Name </sub> | <sub> Info </sub>
+       | <sub> String.prototype.*method* </sub> | <sub> Info </sub>
 :----: | ----------------- | -----------------
-<sub> ❓ </sub> | <sub> ~~`String.prototype.quote()`~~ </sub>
-<sub> ❓ </sub> | <sub> ~~`String.prototype.toSource()`~~ </sub>
-<sub> ❓ </sub> | <sub> ~~`String.prototype.trimLeft()`~~ </sub>
-<sub> ❓ </sub> | <sub> ~~`String.prototype.trimRight()`~~ </sub>
+<sub> ❓ </sub> | <sub> ~~`quote()`~~ </sub>
+<sub> ❓ </sub> | <sub> ~~`toSource()`~~ </sub>
+<sub> ❓ </sub> | <sub> ~~`trimLeft()`~~ </sub>
+<sub> ❓ </sub> | <sub> ~~`trimRight()`~~ </sub>
 
 ## RegExp
 ### Properties
