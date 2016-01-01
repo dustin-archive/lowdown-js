@@ -18,22 +18,22 @@
 #### ES1
        | String.*property* | Info
 :----: | ----------------- | -----------------
-✅ | `length` | 🔹 Returns the length of a string.
-✅ | `prototype` | 🔹 Represents the string prototype object.
+✅ | `length` | • Returns the length of a string.
+✅ | `prototype` | • Represents the string prototype object.
 
 ### Methods
 #### ES1
        | String.prototype.*method()* | Info
 :----: | ----------------- | -----------------
-❎ | ~~`fromCharCode()`~~ | 🔹 Returns a string from a sequence of Unicode values. <br> 🔹 Cannot return all Unicode characters. <br> 🔹 Use `String.fromCodePoint()` instead.
+❎ | ~~`fromCharCode()`~~ | • Returns a string from a sequence of Unicode values. <br> • Cannot return all Unicode characters. <br> • Use `String.fromCodePoint()` instead.
 ✅ | `charAt()`
 ✅ | `charCodeAt()`
 ✅ | `indexOf()`
 ✅ | `lastIndexOf()`
-❎ | ~~`substring()`~~ | 🔹 Returns a section of a string from a start and an optional end index. <br> 🔹 Almost identical to `String.prototype.slice()`, use it instead.
+❎ | ~~`substring()`~~ | • Returns a section of a string from a start and an optional end index. <br> • Almost identical to `String.prototype.slice()`, use it instead.
 ✅ | `toLowerCase()`
 ✅ | `toUpperCase()`
-✅ | `valueOf()` | 🔹 Returns the primitive value of a String object.
+✅ | `valueOf()` | • Returns the primitive value of a String object.
 
 #### ES3
        | String.prototype.*method()* | Info
@@ -44,7 +44,7 @@
 ✅ | `replace()`
 ✅ | `search()`
 ✅ | `slice()`
-✅ | `split()` | 🔹 Returns a section of a string from a start and an optional end index.
+✅ | `split()` | • Returns a section of a string from a start and an optional end index.
 ✅ | `substr()`
 ✅ | `toLocaleLowerCase()`
 ✅ | `toLocaleUpperCase()`
@@ -53,14 +53,14 @@
 #### ES5.1
        | String.prototype.*method()* | Info
 :----: | ----------------- | -----------------
-✅ | `trim()` | 🔹 Removes whitespace from both ends of a string.
+✅ | `trim()` | • Removes whitespace from both ends of a string.
 
 #### ES6
 
 ##### Not HTML
        | String.prototype.*method()* | Info
 :----: | ----------------- | -----------------
-🚧 | `fromCodePoint()` | 🔹 Returns a string from a sequence of code points.
+🚧 | `fromCodePoint()` | • Returns a string from a sequence of code points.
 🚧 | `codePointAt()`
 🚧 | `endsWidth()`
 🚧 | `includes()`
