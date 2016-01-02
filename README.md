@@ -1,4 +1,4 @@
-Lowdown JavaScript
+Lowdown JS
 =======
 An opinioned JavaScript styleguide.
 
