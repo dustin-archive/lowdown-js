@@ -1,6 +1,6 @@
-TLDR.js
+Lowdown JavaScript
 =======
-Unofficial opinionated TL;DR of JavaScript.
+An opinioned JavaScript styleguide.
 
 | [TLDR](TLDR.md) | [OBJECTS](OBJECTS.md) | [FAQ](FAQ.md) | [PRACTICES](PRACTICES.md) |
 |-----------------|-----------------------|---------------|---------------------------|
