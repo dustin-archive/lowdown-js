@@ -1,6 +1,6 @@
 Lowdown JS
 =======
-An opinioned JavaScript styleguide.
+An opinionated JavaScript styleguide.
 
 | [TLDR](TLDR.md) | [OBJECTS](OBJECTS.md) | [FAQ](FAQ.md) | [PRACTICES](PRACTICES.md) |
 |-----------------|-----------------------|---------------|---------------------------|
