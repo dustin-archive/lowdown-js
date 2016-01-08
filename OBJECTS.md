@@ -30,7 +30,7 @@
 | ✅ | `charCodeAt()`
 | ✅ | `indexOf()` | • Returns the index of the first matching occurrence of the argument in a string or array.
 | ✅ | `lastIndexOf()`
-| ❎ | ~~`substring()`~~ | • Returns a section of a string from a start and an optional end index. <br> • Almost identical to `String.prototype.slice()`, use it instead.
+| ❎ | ~~`substring()`~~ | • Returns a section of a string from a start and an optional length of section. <br> • Almost identical to `String.prototype.slice()`, use it instead.
 | ✅ | `toLowerCase()`
 | ✅ | `toUpperCase()`
 | ✅ | `valueOf()` | • Returns the primitive value of a String object.
