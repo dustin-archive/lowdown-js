@@ -28,7 +28,7 @@
 | ❎ | ~~`fromCharCode()`~~ | • Returns a string from a sequence of Unicode values. <br> • Cannot return all Unicode characters. <br> • Use `String.fromCodePoint()` instead.
 | ✅ | `charAt()`
 | ✅ | `charCodeAt()`
-| ✅ | `indexOf()`
+| ✅ | `indexOf()` | • Returns the index of the first matching occurrence of the argument in a string or array.
 | ✅ | `lastIndexOf()`
 | ❎ | ~~`substring()`~~ | • Returns a section of a string from a start and an optional end index. <br> • Almost identical to `String.prototype.slice()`, use it instead.
 | ✅ | `toLowerCase()`
