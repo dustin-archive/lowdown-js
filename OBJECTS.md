@@ -38,7 +38,7 @@
 #### ES3
 |        | String.prototype.*method()* | Info
 | :----: | ----------------- | -----------------
-| ✅ | `concat()` | • Returns a new array from the array it's called from and the array or value from the argument.
+| ✅ | `concat()` | • Returns a new array from the array it's called and the array or value from the argument.
 | ✅ | `localeCompare()`
 | ✅ | `match()`
 | ✅ | `replace()`
