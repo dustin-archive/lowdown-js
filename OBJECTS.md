@@ -48,7 +48,7 @@
 | ✅ | `substr()`
 | ✅ | `toLocaleLowerCase()`
 | ✅ | `toLocaleUpperCase()`
-| ✅ | `toString()`
+| ✅ | `toString()` | • Returns a string from any other datatype.
 
 #### ES5.1
 |        | String.prototype.*method()* | Info
