@@ -44,7 +44,7 @@
 | ✅ | `replace()`
 | ✅ | `search()`
 | ✅ | `slice()` | • Returns a section of a string from a start and an optional end index.
-| ✅ | `split()`
+| ✅ | `split()` | • Returns an array from a string using any string of characters as a delimiter.
 | ✅ | `substr()`
 | ✅ | `toLocaleLowerCase()`
 | ✅ | `toLocaleUpperCase()`
