@@ -43,8 +43,8 @@
 | ✅ | `match()`
 | ✅ | `replace()`
 | ✅ | `search()`
-| ✅ | `slice()`
-| ✅ | `split()` | • Returns a section of a string from a start and an optional end index.
+| ✅ | `slice()` | • Returns a section of a string from a start and an optional end index.
+| ✅ | `split()`
 | ✅ | `substr()`
 | ✅ | `toLocaleLowerCase()`
 | ✅ | `toLocaleUpperCase()`
