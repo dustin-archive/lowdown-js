@@ -53,7 +53,7 @@
 #### ES5.1
 |        | String.prototype.*method()* | Info
 | :----: | ----------------- | -----------------
-| ✅ | `trim()` | • Removes whitespace from both ends of a string.
+| ✅ | `trim()` | • Returns a string with whitespace removed from both ends.
 
 #### ES6
 
