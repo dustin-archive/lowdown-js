@@ -19,3 +19,8 @@
 |:---:|:-----:|
 |`i`  | index |
 |`e`  | event |
+
+---
+
+_Always explicitly pass events_
+todo: add reason why
