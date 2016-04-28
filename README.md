@@ -1,5 +1,5 @@
 Lowdown JS
-=======
+===
 An opinionated JavaScript styleguide.
 
 | [TLDR](TLDR.md) | [OBJECTS](OBJECTS.md) | [FAQ](FAQ.md) | [PRACTICES](PRACTICES.md) |
